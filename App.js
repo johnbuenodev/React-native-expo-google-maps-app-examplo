@@ -1,5 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 
+import MyLocalePinCustom from './src/components/MyLocalePinCustom';
 import MapButtonMarker from './src/components/mapButtonMarker';
 import MarkerPersonalizado from './src/components/markerPersonalizado';
 import MarkersComponent from './src/components/markers';
@@ -12,6 +13,7 @@ export default function App() {
      {/* <MapButtonMarker /> */}
      {/* <MarkersComponent /> */}
      <MarkerPersonalizado />
+     {/* <MyLocalePinCustom /> */}
     </View>
   );
 }
